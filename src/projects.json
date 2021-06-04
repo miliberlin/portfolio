@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Pawly",
+        "stack": ["React", "Javascript", "Express", "MongoDB", "Mongoose", "Passport", "HTML", "CSS"],
+        "demo_url": "https://wearepawly.herokuapp.com",
+        "git_url": "https://github.com/WeArePawly/Pawly",
+        "description": "Build a React app with login & search functionality. Cooperated closely with a UX/UI team using a Figma prototype. Awarded best web dev project at Ironhack graduate show. "
+    },
+    {
+        "name": "Iron-Cream",
+        "stack": ["Javascript", "Express", "MongoDB", "Mongoose", "Passport", "HTML", "CSS"],
+        "demo_url": "https://iron-cream.herokuapp.com",
+        "git_url": "https://github.com/Iron-Cream/Iron-Cream",
+        "description": "Implemented a CRUD application that displays a user-generated map and lets the user add, save, comment, and favourite ice cream stores based on data from Google APIs (Maps, Search Box, Places)."
+    },
+    {
+        "name": "walk your dog",
+        "stack": ["JavaScript", "p5.js", "HTML", "CSS"],
+        "demo_url": "https://miliberlin.github.io/walk-your-dog/",
+        "git_url": "https://github.com/miliberlin/walk-your-dog",
+        "description": "Coded a browser-based single-user game application utilising the p5.js animation library."
+    }
+]
