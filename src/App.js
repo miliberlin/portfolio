@@ -1,8 +1,13 @@
 import "./App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import projects from "./projects.json";
+import ProjectDetail from "./components/ProjectDetail";
 
 function App() {
+  let projectList = projects.map((project) => {
+    return <ProjectDetail project={project} />;
+  });
   return (
     <div className="App">
       <nav>
@@ -18,7 +23,10 @@ function App() {
           </li>
         </ul>
       </nav>
-      <header className="App-header"></header>
+      {/* <header className="App-header"></header> */}
+      <main>
+        <div id="projects">{projectList}</div>
+      </main>
     </div>
   );
 }
