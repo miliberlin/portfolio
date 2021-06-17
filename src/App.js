@@ -16,7 +16,9 @@ function App() {
           <div className="container">
             <h1 className="title">Projects</h1>
             <p className="subtitle">Check out what I've been up to</p>
-            <div cla>{projectList}</div>
+          </div>
+          <div className="container is-flex is-flex-direction-row is-flex-wrap-wrap is-justify-content-space-between is-align-content-flex-start">
+            <div className="project-list columns">{projectList}</div>
           </div>
         </section>
         <section className="section" id="about">
