@@ -9,7 +9,7 @@ export default function NavBar() {
         <a className="navbar-item" href="/">
           Michelle Liebheit
         </a>
-        <a
+        {/* <a
           role="button"
           className="navbar-burger"
           aria-label="menu"
@@ -19,17 +19,20 @@ export default function NavBar() {
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
-        </a>
+        </a> */}
       </div>
       <div id="navbarBasicExample" className="navbar-menu">
         <div className="navbar-start">
           <a className="navbar-item">Home</a>
           <a className="navbar-item">About</a>
           <a className="navbar-item">Skillset</a>
-          <a className="navbar-item" href="">
+          <a
+            className="navbar-item"
+            href="https://www.linkedin.com/in/michelle-liebheit/"
+          >
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
-          <a className="navbar-item">
+          <a className="navbar-item" href="https://github.com/miliberlin">
             <FontAwesomeIcon icon={faGithub} />
           </a>
         </div>

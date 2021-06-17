@@ -12,17 +12,17 @@ function App() {
       <NavBar />
       {/* <header className="App-header"></header> */}
       <main>
-        <section class="section" id="projects">
-          <div class="container">
-            <h1 class="title">Projects</h1>
-            <p class="subtitle">Check out what I've been up to</p>
-            <div>{projectList}</div>
+        <section className="section" id="projects">
+          <div className="container">
+            <h1 className="title">Projects</h1>
+            <p className="subtitle">Check out what I've been up to</p>
+            <div cla>{projectList}</div>
           </div>
         </section>
-        <section class="section" id="about">
-          <div class="container">
-            <h1 class="title">About me</h1>
-            {/* <p class="subtitle">Check out what I've been up to</p> */}
+        <section className="section" id="about">
+          <div className="container">
+            <h1 className="title">About me</h1>
+            {/* <p className="subtitle">Check out what I've been up to</p> */}
             <About />
           </div>
         </section>
