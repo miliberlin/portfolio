@@ -1,8 +1,7 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import projects from "./projects.json";
 import ProjectDetail from "./components/ProjectDetail";
 import About from "./components/About";
+import NavBar from "./components/NavBar";
 
 function App() {
   let projectList = projects.map((project) => {
@@ -10,25 +9,23 @@ function App() {
   });
   return (
     <div className="App">
-      <nav>
-        <ul>
-          <li>About</li>
-          <li>Skillset</li>
-          <li>Projects</li>
-          <li>
-            <FontAwesomeIcon icon={faLinkedin} />
-          </li>
-          <li>
-            <FontAwesomeIcon icon={faGithub} />
-          </li>
-        </ul>
-      </nav>
+      <NavBar />
       {/* <header className="App-header"></header> */}
       <main>
-        <div id="projects">{projectList}</div>
-        <div className="about">
-          <About />
-        </div>
+        <section class="section" id="projects">
+          <div class="container">
+            <h1 class="title">Projects</h1>
+            <p class="subtitle">Check out what I've been up to</p>
+            <div>{projectList}</div>
+          </div>
+        </section>
+        <section class="section" id="about">
+          <div class="container">
+            <h1 class="title">About me</h1>
+            {/* <p class="subtitle">Check out what I've been up to</p> */}
+            <About />
+          </div>
+        </section>
       </main>
     </div>
   );
