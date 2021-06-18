@@ -14,7 +14,7 @@ function App() {
       <main>
         <section className="section" id="projects">
           <div className="container">
-            <h1 className="title">Projects</h1>
+            <h2 className="title is-2">Projects</h2>
             <p className="subtitle">Check out what I've been up to</p>
           </div>
           <div className="container is-flex is-flex-direction-row is-flex-wrap-wrap is-justify-content-space-between is-align-content-flex-start">
@@ -23,8 +23,7 @@ function App() {
         </section>
         <section className="section" id="about">
           <div className="container">
-            <h1 className="title">About me</h1>
-            {/* <p className="subtitle">Check out what I've been up to</p> */}
+            <h2 className="title is-2">About me</h2>
             <About />
           </div>
         </section>

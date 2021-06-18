@@ -7,3 +7,29 @@ body {
 .project-list {
   margin: 20px;
 }
+#about h3 {
+  margin: 15px 0 10px;
+  position: relative;
+  z-index: 100;
+  display: inline-block;
+}
+#about h3::before {
+  position: absolute;
+  content: "<";
+  font-size: 4rem;
+  color: rgba(175, 175, 175, 0.8);
+  z-index: -1;
+  top: -1rem;
+  left: -1rem;
+}
+
+#about h3::after {
+  content: "/>";
+  position: absolute;
+  font-size: 4rem;
+  color: rgba(175, 175, 175, 0.8);
+  z-index: -1;
+  top: -1rem;
+  right: -2.3rem;
+  letter-spacing: -0.3rem;
+}
