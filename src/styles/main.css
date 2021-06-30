@@ -9,27 +9,29 @@ body {
 }
 #about h3 {
   margin: 15px 0 10px;
-  position: relative;
   z-index: 100;
   display: inline-block;
 }
-#about h3::before {
+main {
+  position: relative;
+}
+main::before {
   position: absolute;
   content: "<";
-  font-size: 4rem;
+  font-size: 10rem;
   color: rgba(175, 175, 175, 0.8);
   z-index: -1;
-  top: -1rem;
-  left: -1rem;
+  top: -3rem;
+  left: 0.2rem;
 }
 
-#about h3::after {
+main::after {
   content: "/>";
   position: absolute;
-  font-size: 4rem;
+  font-size: 10rem;
   color: rgba(175, 175, 175, 0.8);
   z-index: -1;
-  top: -1rem;
-  right: -2.3rem;
+  bottom: -1rem;
+  right: 1rem;
   letter-spacing: -0.3rem;
 }
