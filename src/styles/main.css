@@ -24,7 +24,6 @@ main::before {
   top: -3rem;
   left: 0.2rem;
 }
-
 main::after {
   content: "/>";
   position: absolute;
@@ -34,4 +33,11 @@ main::after {
   bottom: -1rem;
   right: 1rem;
   letter-spacing: -0.3rem;
+}
+#skillset li::before {
+  content: "> ";
+  color: rgba(175, 175, 175, 0.8);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
 }

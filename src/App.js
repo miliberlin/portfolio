@@ -2,6 +2,7 @@ import projects from "./projects.json";
 import ProjectDetail from "./components/ProjectDetail";
 import About from "./components/About";
 import NavBar from "./components/NavBar";
+import Skillset from "./components/Skillset";
 
 function App() {
   let projectList = projects.map((project) => {
@@ -19,6 +20,11 @@ function App() {
           </div>
           <div className="container is-flex is-flex-direction-row is-flex-wrap-wrap is-justify-content-space-between is-align-content-flex-start">
             <div className="project-list columns">{projectList}</div>
+          </div>
+        </section>
+        <section className="section" id="skillset">
+          <div className="container">
+            <Skillset />
           </div>
         </section>
         <section className="section" id="about">
