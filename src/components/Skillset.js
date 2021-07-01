@@ -38,6 +38,11 @@ export default function Skillset() {
           <progress class="progress is-primary" value="40" max="100" />
         </li>
         <li>
+          Git / GitHub
+          <progress class="progress is-primary" value="50" max="100" />
+        </li>
+
+        <li>
           Currently studying: TypeScript
           <progress class="progress is-primary" max="100" />
         </li>
