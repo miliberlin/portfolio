@@ -30,6 +30,14 @@ export default function Skillset() {
           <progress class="progress is-primary" value="90" max="100" />
         </li>
         <li>
+          CSS pre-processing with SASS
+          <progress class="progress is-primary" value="30" max="100" />
+        </li>
+        <li>
+          CSS frameworks (Bulma, Bootstrap)
+          <progress class="progress is-primary" value="40" max="100" />
+        </li>
+        <li>
           Currently studying: TypeScript
           <progress class="progress is-primary" max="100" />
         </li>
