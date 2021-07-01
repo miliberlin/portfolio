@@ -37,6 +37,12 @@ main::after {
   right: 1rem;
   letter-spacing: -0.3rem;
 }
+#skillset li {
+  margin-bottom: 20px;
+}
+#skillset li progress {
+  margin-left: 1rem;
+}
 #skillset li::before {
   content: "> ";
   color: rgba(175, 175, 175, 0.8);
