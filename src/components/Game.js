@@ -1,14 +1,16 @@
 import React, { useState, useEffect } from "react";
+import { movePlayer } from "../game/move.js";
 
 export default function Game() {
-  const [playGame, setPlayGame] = useState(false);
+  const [playGame, setPlayGame] = useState(true);
   useEffect(
     () => {
       if (playGame === true) {
         document.getElementById("startGameBtn").remove();
         let player = document.createElement("div");
-        player.classList.add("player");
+        player.id = "player";
         document.getElementById("canvas").appendChild(player);
+        movePlayer();
       }
       //   effect
       //   return () => {
