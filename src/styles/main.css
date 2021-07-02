@@ -50,3 +50,19 @@ main::after {
   display: inline-block;
   width: 1em;
 }
+#game #canvas {
+  width: 100%;
+  height: 5rem;
+  border: 1px solid aquamarine;
+  position: relative;
+}
+#player {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 30%;
+  left: 2%;
+  background-image: url("../img/cookie-monster.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}

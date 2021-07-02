@@ -3,6 +3,7 @@ import ProjectDetail from "./components/ProjectDetail";
 import About from "./components/About";
 import NavBar from "./components/NavBar";
 import Skillset from "./components/Skillset";
+import Game from "./components/Game";
 
 function App() {
   let projectList = projects.map((project) => {
@@ -31,6 +32,11 @@ function App() {
           <div className="container">
             <h2 className="title is-2">About me</h2>
             <About />
+          </div>
+        </section>
+        <section className="section" id="game">
+          <div className="container">
+            <Game />
           </div>
         </section>
       </main>
