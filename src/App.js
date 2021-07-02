@@ -6,8 +6,8 @@ import Skillset from "./components/Skillset";
 import Game from "./components/Game";
 
 function App() {
-  let projectList = projects.map((project) => {
-    return <ProjectDetail project={project} />;
+  let projectList = projects.map((project, i) => {
+    return <ProjectDetail key={i} project={project} />;
   });
   return (
     <div className="App">

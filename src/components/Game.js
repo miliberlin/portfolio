@@ -7,6 +7,7 @@ export default function Game() {
     () => {
       if (playGame === true) {
         document.getElementById("startGameBtn").remove();
+
         let player = document.createElement("div");
         player.id = "player";
         document.getElementById("canvas").appendChild(player);
