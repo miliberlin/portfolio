@@ -6,6 +6,9 @@ export default function Game() {
     () => {
       if (playGame === true) {
         document.getElementById("startGameBtn").remove();
+        let player = document.createElement("div");
+        player.classList.add("player");
+        document.getElementById("canvas").appendChild(player);
       }
       //   effect
       //   return () => {
@@ -15,7 +18,7 @@ export default function Game() {
     //   , [input]
   );
   return (
-    <div className="canvas">
+    <div id="canvas">
       <button
         id="startGameBtn"
         className="button is-primary"
