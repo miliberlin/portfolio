@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { movePlayer } from "../game/move.js";
+import { addCookie } from "../game/cookies.js";
 
 export default function Game() {
   const [playGame, setPlayGame] = useState(true);
