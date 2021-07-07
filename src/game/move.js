@@ -28,5 +28,3 @@ export function movePlayer() {
     }
   });
 }
-
-// W/S control forward and backward, while A/D control strafing left and right.

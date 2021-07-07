@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { movePlayer } from "../game/move.js";
+import { addCookie } from "../game/cookies.js";
 
 export default function Game() {
   const [playGame, setPlayGame] = useState(true);
@@ -7,6 +8,7 @@ export default function Game() {
     () => {
       if (playGame === true) {
         document.getElementById("startGameBtn").remove();
+
         let player = document.createElement("div");
         player.id = "player";
         document.getElementById("canvas").appendChild(player);
